@@ -1,8 +1,6 @@
-
 /* HIDE CONTAINER INDICATOR IN URL BAR */
 #userContext-icons {
 display: none;
-  
 }
 
 /* Center text in URL bar */
@@ -11,3 +9,4 @@ display: none;
     text-align: center !important;
     position: relative;
 }
+
