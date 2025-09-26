@@ -2,4 +2,12 @@
 /* HIDE CONTAINER INDICATOR IN URL BAR */
 #userContext-icons {
 display: none;
+  
+}
+
+/* Center text in URL bar */
+#urlbar .urlbar-input,
+.urlbar-input-container {
+    text-align: center !important;
+    position: relative;
 }
