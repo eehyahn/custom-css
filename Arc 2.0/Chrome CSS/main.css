@@ -1,0 +1,34 @@
+
+/* Sidebar background transparency for Windows 10*/
+#sidebar-box,
+#bookmarksPanel.sidebar-panel,
+#sidebar-header,
+#history-panel,
+html,
+#header {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Hides the container info in url-bar */
+#urlbar #userContext-label {
+  display: none !important;
+}
+#urlbar #userContext-indicator {
+  display: none !important;
+}
+#urlbar #userContext-icons {
+  display: none !important;
+}
+  
+.urlbar-background{
+  border-radius: 11px !important;
+}
+
+.zen-essentials-container > .tabbrowser-tab, #zen-welcome-initial-essentials-browser-sidebar-essentials .tabbrowser-tab {
+  & .tab-background {
+    border-radius: 11px !important;
+    transition: background 0.1s ease-in-out;
+  }
+}
