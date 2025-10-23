@@ -1,3 +1,8 @@
+/* Separation for No Borders + Media Player fix*/
+.browser-toolbar.customization-target.zen-sidebar-toolbar {
+     bottom: 10px !important;
+  }
+}
 
 /* Sidebar background transparency for Windows 10*/
 #sidebar-box,
@@ -32,3 +37,4 @@ html,
     transition: background 0.1s ease-in-out;
   }
 }
+
