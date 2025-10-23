@@ -38,7 +38,7 @@
 
 
 
-  /* Fix for twilight acrylic */
+  /* Fix for twilight acrylic 
   #navigator-toolbox:not([animate='true']) #titlebar {
     position: relative;
   }
@@ -61,7 +61,8 @@
     opacity: var(--zen-grainy-background-opacity, 0);
     mix-blend-mode: overlay;
   }
-
+ */
+  
   /* -------------------------- COMPACT SIDEBAR PSEUDO BACKGROUND -------------------------- */
 
   /* --- Base styling for all types --- */
