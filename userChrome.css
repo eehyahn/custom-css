@@ -1,2 +1,9 @@
 @import "Arc 2.0/arc.css";
 @import "./CONFIG.css";
+
+/* Center text in URL bar */
+#urlbar .urlbar-input,
+.urlbar-input-container {
+  text-align: center !important;
+  position: relative;
+}
