@@ -5,3 +5,15 @@
   text-align: center !important;
   position: relative;
 }
+
+/* Transparency for Windows 10*/
+#sidebar-box,
+#bookmarksPanel.sidebar-panel,
+#sidebar-header,
+#history-panel,
+:root,
+#header {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
